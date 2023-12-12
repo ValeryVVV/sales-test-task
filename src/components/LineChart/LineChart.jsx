@@ -84,40 +84,23 @@
 
 import * as React from 'react';
 import { LineChart } from '@mui/x-charts/LineChart';
-import { data } from '../../data/tableInfoData';
-
-
-const filteredDress = data.filter(elem => {
-    return elem.productCategory === 'Dress';
-});
-
-const filteredCoat = data.filter(elem => {
-    return elem.productCategory === 'Coat';
-});
-
-const filteredSkirt = data.filter(elem => {
-    return elem.productCategory === 'Skirt';
-});
-
-const uData = filteredDress.map(product => product.unitSold);
-const pData = filteredCoat.map(product => product.unitSold);
-const vData = filteredSkirt.map(product => product.unitSold);
-const xLabels = data.map(product => product.date);
-
-
+import { unitSoldDress, unitSoldCoat, unitSoldSkirt, lineChartLabels } from 'config/config';
+import { Typography } from '@mui/material';
 
 export default function BasicLineChart() {
-  return (
-    <LineChart
-      width={900}
-      height={400}
-      series={[
-        { data: pData, label: 'dress' },
-        { data: uData, label: 'coat' },
-        { data: vData, label: 'skirt' },
-      ]}
-      xAxis={[{ scaleType: 'point', data: xLabels }]}
-    />
+    return (
+        <>
+            <Typography typography='h5' align='center'>Units sold per month</Typography>
+            <LineChart
+                height={300}
+                series={[
+                    { data: unitSoldDress, label: 'Dress' },
+                    { data: unitSoldCoat, label: 'Coat' },
+                    { data: unitSoldSkirt, label: 'Skirt' },
+                ]}
+                xAxis={[{ scaleType: 'point', data: lineChartLabels }]}
+            />
+      </>
   );
 }
 
