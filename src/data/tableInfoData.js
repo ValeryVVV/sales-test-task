@@ -5,7 +5,7 @@ export const data = [
     date: 'February',
     profit: '7707.00',
     unitSold: 12505,
-    monthlyRevenue: '46400.00',
+    monthlyRevenue: 416400,
   },
   {
     id: '2',
@@ -13,14 +13,14 @@ export const data = [
     date: 'December',
     profit: '4767.00',
     unitSold: 23830,
-    monthlyRevenue: '24700.00',
+    monthlyRevenue: 424700,
   },
   {
     productCategory: 'Dress',
     date: 'January',
     profit: '1787.00',
     unitSold: 34112,
-    monthlyRevenue: '19400.00',
+    monthlyRevenue: 19400,
     id: '3',
   },
 
@@ -29,7 +29,7 @@ export const data = [
     date: 'March',
     profit: '2787.00',
     unitSold: 49788,
-    monthlyRevenue: '18090.00',
+    monthlyRevenue: 18090,
     id: '4',
   },
 
@@ -38,7 +38,7 @@ export const data = [
     date: 'April',
     profit: '6787.00',
     unitSold: 79349,
-    monthlyRevenue: '18800.00',
+    monthlyRevenue: 18800,
     id: '5',
   },
   {
@@ -46,7 +46,7 @@ export const data = [
     date: 'May',
     profit: '1277.00',
     unitSold: 98516,
-    monthlyRevenue: '11200.00',
+    monthlyRevenue: 11200,
     id: '6',
   },
   {
@@ -54,7 +54,7 @@ export const data = [
     date: 'June',
     profit: '3787.00',
     unitSold: 85167,
-    monthlyRevenue: '31500.00',
+    monthlyRevenue: 31500,
     id: '7',
   },
   {
@@ -62,7 +62,7 @@ export const data = [
     date: 'July',
     profit: '34777.00',
     unitSold: 61259,
-    monthlyRevenue: '167500.00',
+    monthlyRevenue: 167500,
     id: '8',
   },
   {
@@ -70,7 +70,7 @@ export const data = [
     date: 'August',
     profit: '7770.00',
     unitSold: 6837,
-    monthlyRevenue: '10500.00',
+    monthlyRevenue: 10500,
     id: '9',
   },
   {
@@ -78,7 +78,7 @@ export const data = [
     date: 'September',
     profit: '4777.00',
     unitSold: 129278,
-    monthlyRevenue: '15900.00',
+    monthlyRevenue: 15900,
     id: '10',
   },
   {
@@ -86,7 +86,7 @@ export const data = [
     date: 'October',
     profit: '56777.00',
     unitSold: 783467,
-    monthlyRevenue: '981500.00',
+    monthlyRevenue: 981500,
     id: '11',
   },
   {
@@ -94,7 +94,7 @@ export const data = [
     date: 'November',
     profit: '13777.00',
     unitSold: 19409,
-    monthlyRevenue: '561500.00',
+    monthlyRevenue: 561500,
     id: '12',
   },
   {
@@ -102,7 +102,7 @@ export const data = [
     date: 'February',
     profit: '8707.00',
     unitSold: 71505,
-    monthlyRevenue: '76400.00',
+    monthlyRevenue: 76400,
     id: '13',
   },
   {
@@ -110,7 +110,7 @@ export const data = [
     date: 'December',
     profit: '4767.00',
     unitSold: 41283,
-    monthlyRevenue: '24700.00',
+    monthlyRevenue: 24700,
     id: '14',
   },
   {
@@ -118,7 +118,7 @@ export const data = [
     date: 'January',
     profit: '2787.00',
     unitSold: 67112,
-    monthlyRevenue: '49400.00',
+    monthlyRevenue: 49400,
     id: '15',
   },
 
@@ -127,7 +127,7 @@ export const data = [
     date: 'March',
     profit: '5787.00',
     unitSold: 19788,
-    monthlyRevenue: '20090.00',
+    monthlyRevenue: 20090,
     id: '16',
   },
 
@@ -136,7 +136,7 @@ export const data = [
     date: 'April',
     profit: '8787.00',
     unitSold: 49349,
-    monthlyRevenue: '48800.00',
+    monthlyRevenue: 48800,
     id: '17',
   },
   {
@@ -144,7 +144,7 @@ export const data = [
     date: 'May',
     profit: '6277.00',
     unitSold: 15116,
-    monthlyRevenue: '71200.00',
+    monthlyRevenue: 71200,
     id: '18',
   },
   {
@@ -152,7 +152,7 @@ export const data = [
     date: 'June',
     profit: '3787.00',
     unitSold: 82637,
-    monthlyRevenue: '431500.00',
+    monthlyRevenue: 431500,
     id: '19',
   },
   {
@@ -160,7 +160,7 @@ export const data = [
     date: 'July',
     profit: '9177.00',
     unitSold: 91569,
-    monthlyRevenue: '17500.00',
+    monthlyRevenue: 17500,
     id: '20',
   },
   {
@@ -168,7 +168,7 @@ export const data = [
     date: 'August',
     profit: '7770.00',
     unitSold: 59376,
-    monthlyRevenue: '14500.00',
+    monthlyRevenue: 14500,
     id: '21',
   },
   {
@@ -176,7 +176,7 @@ export const data = [
     date: 'September',
     profit: '4777.00',
     unitSold: 89768,
-    monthlyRevenue: '156400.00',
+    monthlyRevenue: 156400,
     id: '22',
   },
   {
@@ -184,7 +184,7 @@ export const data = [
     date: 'October',
     profit: '65777.00',
     unitSold: 12467,
-    monthlyRevenue: '191500.00',
+    monthlyRevenue: 191500,
     id: '23',
   },
   {
@@ -192,7 +192,7 @@ export const data = [
     date: 'November',
     profit: '13777.00',
     unitSold: 74909,
-    monthlyRevenue: '651500.00',
+    monthlyRevenue: 651500,
     id: '24',
   },
   {
@@ -200,7 +200,7 @@ export const data = [
     date: 'February',
     profit: '3707.00',
     unitSold: 52505,
-    monthlyRevenue: 56400,
+    monthlyRevenue: 561400,
     id: '25',
   },
   {
@@ -208,7 +208,7 @@ export const data = [
     date: 'December',
     profit: '3767.00',
     unitSold: 24283,
-    monthlyRevenue: 2400,
+    monthlyRevenue: 24900,
     id: '26',
   },
   {
@@ -216,7 +216,7 @@ export const data = [
     date: 'January',
     profit: '287.00',
     unitSold: 78912,
-    monthlyRevenue: 450,
+    monthlyRevenue: 34450,
     id: '27',
   },
 
@@ -242,7 +242,7 @@ export const data = [
     date: 'May',
     profit: '3277.00',
     unitSold: 12116,
-    monthlyRevenue: 4200,
+    monthlyRevenue: 14200,
     id: '30',
   },
   {
@@ -250,7 +250,7 @@ export const data = [
     date: 'June',
     profit: '4587.00',
     unitSold: 36037,
-    monthlyRevenue: 51500,
+    monthlyRevenue: 516500,
     id: '31',
   },
   {
@@ -258,7 +258,7 @@ export const data = [
     date: 'July',
     profit: '5177.00',
     unitSold: 67569,
-    monthlyRevenue: 37500,
+    monthlyRevenue: 437500,
     id: '32',
   },
   {
@@ -266,7 +266,7 @@ export const data = [
     date: 'August',
     profit: '2770.00',
     unitSold: 3756,
-    monthlyRevenue: 34500,
+    monthlyRevenue: 234500,
     id: '33',
   },
   {
@@ -274,7 +274,7 @@ export const data = [
     date: 'September',
     profit: '8777.00',
     unitSold: 14768,
-    monthlyRevenue: 75640,
+    monthlyRevenue: 756640,
     id: '34',
   },
   {
@@ -282,7 +282,7 @@ export const data = [
     date: 'October',
     profit: '5777.00',
     unitSold: 62467,
-    monthlyRevenue: 39150,
+    monthlyRevenue: 394150,
     id: '35',
   },
   {
@@ -290,7 +290,7 @@ export const data = [
     date: 'November',
     profit: '1777.00',
     unitSold: 73409,
-    monthlyRevenue: 6500,
+    monthlyRevenue: 62500,
     id: '36',
   },
 ];

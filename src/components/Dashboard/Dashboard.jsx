@@ -13,6 +13,8 @@ import { Container, Grid, Paper, createTheme } from '@mui/material';
 import ProductWidget from 'components/ProductWidget/ProductWidget';
 import BasicLineChart from 'components/LineChart/LineChart';
 import { TableProducts } from 'components/TableInfo/TableProductsInfo';
+import BarProductChart from 'components/BarChart/BarChart';
+import ProductMonthlyWidget from 'components/ProductWidget/ProductMonthlyWidget';
 
 const defaultTheme = createTheme();
 
@@ -84,41 +86,67 @@ export default function Dashboard() {
         >
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
             <Grid container spacing={3}>
-              {/* Line Chart */}
-              <Grid item xs={12} md={8} lg={9}>
-                <Paper
-                  sx={{
-                    p: 2,
-                    display: 'flex',
-                    flexDirection: 'column',
-                    height: 240,
-                  }}
-                >
-                  <BasicLineChart />
-                </Paper>
-              </Grid>
-              {/* ProductWidget */}
-              <Grid item xs={12} md={4} lg={3}>
-                <Paper
-                  sx={{
-                    p: 2,
-                    display: 'flex',
-                    flexDirection: 'column',
-                    height: 240,
-                  }}
-                >
-                  <ProductWidget />
-                </Paper>
-              </Grid>
-              {/* TableProducts */}
-              <Grid item xs={12}>
-                <Paper sx={{ display: 'flex', flexDirection: 'column' }}>
-                  <TableProducts />
-                </Paper>
-              </Grid>
+                {/* Line Chart */}
+                <Grid item xs={12} md={8} lg={9}>
+                    <Paper
+                    sx={{
+                        p: 2,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        height: 240,
+                    }}
+                    >
+                    <BasicLineChart />
+                    </Paper>
+                </Grid>
+                {/* ProductWidget */}
+                <Grid item xs={12} md={4} lg={3}>
+                    <Paper
+                    sx={{
+                        p: 2,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        height: 240,
+                    }}
+                    >
+                    <ProductWidget />
+                    </Paper>
+                </Grid>
+                {/* TableProducts */}
+                <Grid item xs={12}>
+                    <Paper sx={{ display: 'flex', flexDirection: 'column' }}>
+                    <TableProducts />
+                    </Paper>
+                </Grid>
+                {/* ProductMonthlyWidget */}
+                <Grid item xs={12} md={4} lg={3}>
+                    <Paper
+                        sx={{
+                            p: 2,
+                            display: 'flex',
+                            flexDirection: 'column',
+                            height: 240,
+                        }}
+                    >
+                        <ProductMonthlyWidget />
+                    </Paper>
+                </Grid>
+                {/* BarProducts */}
+                <Grid item xs={12} md={8} lg={9}>
+                    <Paper
+                        sx={{
+                            p: 2,
+                            display: 'flex',
+                            flexDirection: 'column',
+                            height: 240,
+                        }}
+                    >
+                        <BarProductChart />
+                    </Paper>
+                </Grid>
             </Grid>
-                    </Container>
-                    </Box>
+        </Container>
+        </Box>
         </Box>
     </ThemeProvider>
   );
